@@ -10,8 +10,7 @@
                 </figure>
                 <div class="detail__info">
                     <h1 class="detail__info--title">{{ $user->name }}</h1> 
-                    <p>შეფასება <span class="text-danger">{{ $rate }}</span></p>
-                    <input type="range" value="{{ $rate }}" class="form-range" min="0" max="10" id="customRange2">
+                    <p>შეფასება: <span class="text-danger">{{ $rate }}</span></p>
                     <a href="tel:{{ $user->mobile }}" class="detail__info--call">{{ $user->mobile }}</a>
                     <div class="detail__info--desc">
                         {{ $user->description }}
@@ -24,7 +23,8 @@
                     @csrf  
                 <div>
                     <p>შეაფასე</p>
-                    <input name="rate" type="number" value="5" min="0" max="10">
+                    <!-- <input name="rate" type="number" value="5" min="0" max="10"> -->
+                    <input type="range" name="rate" value="0" class="form-range" min="0" max="10" id="customRange2">
                 </div>
                 <div>
                     <p>დაწერე კომენტარი</p>
