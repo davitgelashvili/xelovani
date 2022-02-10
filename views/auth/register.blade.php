@@ -55,12 +55,13 @@
             <select name="category" class="register__input" id="inputGroupSelect01">
                 <option selected>Choose...</option>
                 <option value="გალესვა">გალესვა</option>
+                <option value="იატაკის მოჭიმვა (სტიაშკა)">იატაკის მოჭიმვა (სტიაშკა)</option>
                 <option value="მშენებელი">მშენებელი</option>
                 <option value="რემონტი">რემონტი</option>
                 <option value="კაფელი">კაფელი</option>
                 <option value="მეტლახი">მეტლახი</option>
-                <option value="კარფ-ფანჯარა">კარფ-ფანჯარა</option>
-                <option value="რკინის-კონსტრუქცია">რკინის კონსტრუქცია</option>
+                <option value="კარფ ფანჯარა">კარფ-ფანჯარა</option>
+                <option value="რკინის კონსტრუქცია">რკინის კონსტრუქცია</option>
                 <option value="მინ">მინ</option>
                 <option value="ხის კონსტრუქცია">ხის კონსტრუქცია</option>
                 <option value="დანგრევა">დანგრევა</option>
