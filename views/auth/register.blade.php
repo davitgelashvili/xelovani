@@ -60,7 +60,8 @@
                 <option value="რემონტი">რემონტი</option>
                 <option value="კაფელი">კაფელი</option>
                 <option value="მეტლახი">მეტლახი</option>
-                <option value="კარფ ფანჯარა">კარფ-ფანჯარა</option>
+                <option value="ლამინატი">ლამინატი</option>
+                <option value="კარ-ფანჯარა">კარ-ფანჯარა</option>
                 <option value="რკინის კონსტრუქცია">რკინის კონსტრუქცია</option>
                 <option value="მინ">მინ</option>
                 <option value="ხის კონსტრუქცია">ხის კონსტრუქცია</option>
