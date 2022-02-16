@@ -54,6 +54,7 @@
             <p class="register__label--title">{{ __('კატეგორია') }}</p>
             <select name="category" class="register__input" id="inputGroupSelect01">
                 <option selected>Choose...</option>
+                <option value="უნივერსალი">უნივერსალი</option>
                 <option value="გალესვა">გალესვა</option>
                 <option value="იატაკის მოჭიმვა (სტიაშკა)">იატაკის მოჭიმვა (სტიაშკა)</option>
                 <option value="მშენებელი">მშენებელი</option>
@@ -66,6 +67,7 @@
                 <option value="მინ">მინ</option>
                 <option value="ხის კონსტრუქცია">ხის კონსტრუქცია</option>
                 <option value="დანგრევა">დანგრევა</option>
+                <option value="ელექტრიკოსი">ელექტრიკოსი</option>
                 <option value="მუშა">მუშა</option>
                 </select>
             @error('category')

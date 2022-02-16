@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="detail__footer">
-            <form action="/edit/{{ $user->id }}" method="post">       
+            <form action="/profile/{{ $user->id }}" method="post">       
                 @csrf  
                 <div>
                     <p class="detail__footer--title">შეაფასე 1 დან 10 მდე</p>
@@ -51,7 +51,7 @@
         <table class="table">
         <thead>
             <tr>
-                <th scope="col"><a href="/edit/{{ $each->id }}">{{ $each->name }}</a></th>
+                <th scope="col"><a href="/profile/{{ $each->id }}">{{ $each->name }}</a></th>
             
             </tr>
         </thead>
