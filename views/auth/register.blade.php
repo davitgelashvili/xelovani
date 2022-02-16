@@ -68,6 +68,8 @@
                 <option value="ხის კონსტრუქცია">ხის კონსტრუქცია</option>
                 <option value="დანგრევა">დანგრევა</option>
                 <option value="ელექტრიკოსი">ელექტრიკოსი</option>
+                <option value="სანტექნიკა">სანტექნიკა</option>
+                <option value="ცენტრალური გათბობა">ცენტრალური გათბობა</option>
                 <option value="მუშა">მუშა</option>
                 </select>
             @error('category')
